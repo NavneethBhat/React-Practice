@@ -2,12 +2,11 @@ import React from 'react'
 import CorrectFile from './CorrectFile';
 import Falsefile from './Falsefile';
 function Parent() {
-  // let x=20;
-  // let y="India"
-  // let msg;
-  // let msg1;
+
+
+
   
-  
+
   // Arrow Function without Parameter:
   // const handlebtn=()=>{
   //   console.log("Hii");
@@ -46,9 +45,10 @@ return <h1>{age >= 60 && totalSpent >= 1000? <CorrectFile /> : <Falsefile />}</h
 //     <div className='App'>
 //         Hello Ulaagamee!!!!
 //         <h1>React is {5+5} times better with JSX</h1>
-    
-// <h2>HTML Forms</h2>
+   
 
+// Forms:
+// <h2>HTML Forms</h2>
 // <form action="/action_page.php" className='App2'/>
 //   <label for="fname">First name:</label><br/>
 //   <input type="text" id="fname" name="fname" value="John"/><br/>
@@ -57,6 +57,12 @@ return <h1>{age >= 60 && totalSpent >= 1000? <CorrectFile /> : <Falsefile />}</h
 //   <input type="submit" value="Submit"/>
 // <form/>
 
+
+
+// let x=20;
+// let y="India"
+// let msg;
+// let msg1;
 // <h1>{ x>=10? msg="The value of x is less than 10":msg="The value of x is greater than 10"}</h1>
 // <h1>{ y="India"? msg1="India won the WC":msg1="India lost the finals"}</h1>
 // <div>
@@ -68,8 +74,6 @@ return <h1>{age >= 60 && totalSpent >= 1000? <CorrectFile /> : <Falsefile />}</h
 //     Submit With Para
 //   </button>
 // </div>
-
-
 // </div>
 //   );
 
