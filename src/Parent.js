@@ -37,6 +37,7 @@ let totalSpent = 1200;
 return <h1>{age >= 60 && totalSpent >= 1000? <CorrectFile /> : <Falsefile />}</h1>
   
 
+
 //   return (
 //     <div className='App'>
 //         Hello Ulaagamee!!!!
