@@ -4,9 +4,6 @@ import Falsefile from './Falsefile';
 function Parent() {
 
 
-
-  
-
   // Arrow Function without Parameter:
   // const handlebtn=()=>{
   //   console.log("Hii");
@@ -33,10 +30,9 @@ const z = "true";
 return <h1>{z === "true" ? <CorrectFile /> : <Falsefile />}</h1>;
 
 
-
+// Ternary:
 let age = 65;
 let totalSpent = 1200;
-
 
 return <h1>{age >= 60 && totalSpent >= 1000? <CorrectFile /> : <Falsefile />}</h1>
   
